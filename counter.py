@@ -5,7 +5,8 @@ import math
 import numpy as np
 from sort import *
 
-cap = cv2.VideoCapture('C:/Users/shrey/Desktop/ML/Internship/Virtuorigin/Video/counter.mp4')
+video_link = "link to video"
+cap = cv2.VideoCapture(video_link)
 
 model_path = 'best.pt'
 
@@ -80,3 +81,4 @@ while True:
     # cv2.imshow("Image", image)
     if cv2.waitKey(1) == 13:
         break
+        
