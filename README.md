@@ -20,6 +20,14 @@ This assignment involved training an object detection model using the provided d
 6. **Count Calculation**: To calculate the total count of vehicles, I used opencv methods to draw bounding boxes around detected vehicles. I also applied the SORT (Simple Online and Realtime Tracking) algorithm to track the movement of vehicles within the video.
 
 ## Results
+![image](https://github.com/ShreyNaik123/virtuorigin/assets/61283238/7748721f-338a-4729-a178-bf2adbf3520c)
+<br>
+
+![image](https://github.com/ShreyNaik123/virtuorigin/assets/61283238/a487c905-8791-4c28-b404-702ed0e56db5)
+<br>
+
+![image](https://github.com/ShreyNaik123/virtuorigin/assets/61283238/124582c6-d21a-488b-8695-4f559038ec21)
+<br>
 
 The model successfully detected and tracked vehicles in the provided test video. The total count of vehicles was calculated and displayed on the video frames.
 
